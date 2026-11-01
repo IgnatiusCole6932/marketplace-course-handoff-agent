@@ -1,0 +1,28 @@
+{
+  "requestId": "lesson-release-1042",
+  "instruction": "Refresh the course summary, then hand off the paid order to the learner.",
+  "sellerAssets": [
+    {
+      "sellerId": "teacher-7",
+      "courseId": "ts-foundations",
+      "title": "TypeScript Foundations",
+      "summary": "Six practical lessons on types and narrowing."
+    }
+  ],
+  "buyerUpdates": [
+    {
+      "buyerId": "learner-12",
+      "orderId": "order-1042",
+      "kind": "payment_confirmed",
+      "message": "Payment received; learner is ready for access."
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "order-1042",
+      "buyerId": "learner-12",
+      "courseId": "ts-foundations",
+      "status": "paid"
+    }
+  ]
+}
